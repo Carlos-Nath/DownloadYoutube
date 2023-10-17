@@ -1,0 +1,46 @@
+#Descarga de forma directa el video de youtube.
+#youTubeVideo = pytube.YouTube("https://youtu.be/44XYEeD1A1U")
+#youTubeVideo.streams.first().download("C:/Users/NATH_VAIO/Documents/Python/DownloadYoutube")
+
+#Descarga de elementos por medio de consola.
+url = "https://www.youtube.com/watch?v=3j8F-lQUgks&ab_channel=M%C3%A4godeOz"
+path = "C:/Users/NATH_VAIO/Documents/Python/DownloadYoutube/Deescargas"
+
+
+youTubeVideo = pytube.YouTube(url)
+
+#Datos que se pueden obtener del video.
+print("Title........." + youTubeVideo.title)
+print("lenght......." + str(youTubeVideo.length))
+print("Description..." + str(youTubeVideo.description))
+print("Metadata....." + str(youTubeVideo._metadata))
+
+#muestra solo los treams de video
+"""
+listStreams = youTubeVideo.streams.filter(only_video=True)
+for streams in listStreams:
+   print (streams)
+"""
+
+#muestra solo los treams de musica
+listStreams = youTubeVideo.streams.filter(only_audio=True)
+for streams in listStreams:
+    print (streams)
+
+#Seleccion de stream por medio de un ITAG
+ElemenToDownload = "139" #número del itag "estream"
+stream = youTubeVideo.streams.get_by_itag(ElemenToDownload)
+stream.download(path)
+
+
+
+Fuentes consultadas:
+• https://pytube.io/en/latest/
+• https://pytube.io/en/latest/api.html#stream-object
+• https://pytube.io/en/latest/api.html#youtube-object
+• https://www.w3schools.com/python/python_classes.asp
+• https://aprendeconalf.es/docencia/python/manual/objetos/#:~:text=El%20m%C3%A9todo%20__init__,-En%20la%20definici%C3%B3n&text=Este%20m%C3%A9todo%20es%20un%20m%C3%A9todo,creaci%C3%B3n%2C%20pero%20no%20devuelve%20nada.
+• https://es.stackoverflow.com/questions/435161/c%C3%B3mo-eliminar-una-instancia-de-clase-de-una-lista-en
+• https://programacionfacil.org/cursos/python_basico/capitulo_40_pass_y_eliminar_objetos_python.html
+• https://pypi.org/project/moviepy/
+• https://zulko.github.io/moviepy/getting_started/audioclips.html
