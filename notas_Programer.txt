@@ -44,3 +44,5 @@ Fuentes consultadas:
 • https://programacionfacil.org/cursos/python_basico/capitulo_40_pass_y_eliminar_objetos_python.html
 • https://pypi.org/project/moviepy/
 • https://zulko.github.io/moviepy/getting_started/audioclips.html
+• https://pytube.io/en/latest/user/playlist.html
+• 
