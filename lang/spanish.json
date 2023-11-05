@@ -1,0 +1,15 @@
+{
+    "_":"_Default_",
+    "NameTitle": "Descargar Videos",
+    "EdchOne": "Descarga Individual",
+    "EdchTwo": "Descarga por Playlist",
+    "MainLabel": "Esta plataforma ayuda a descargar música desde YouTube",
+    "InputURL": "Ingresar URL:",
+    "PasteURL": "Pegar URL",
+    "SelectItag":"Selecciona una resolución",
+    "PathStr":"Ruta donde se guardará el archivo",
+    "ChangePath":"Cambiar Ruta",
+    "ButtonDowload":"Descargar",
+    "Loading": "Cargando"
+    
+}

@@ -22,14 +22,12 @@ class YoutubeDownload:
     #muestra solo los treams de video
     def streamVideo(self):
         listStreams = self.youTubeVideo.streams.filter(only_video=True)
-        for streams in listStreams:
-            print (streams)
+        return listStreams
     
     #muestra solo los treams de musica
     def streamAudio(self):
         listStreams = self.youTubeVideo.streams.filter(only_audio=True)
-        for streams in listStreams:
-            print (streams)
+        return listStreams
             
     #Seleccion de stream por medio de un ITAG    
     def downloadToItag(self,itag,path):

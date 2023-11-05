@@ -45,4 +45,15 @@ Fuentes consultadas:
 • https://pypi.org/project/moviepy/
 • https://zulko.github.io/moviepy/getting_started/audioclips.html
 • https://pytube.io/en/latest/user/playlist.html
-• 
+• https://docs.python.org/es/3/library/tkinter.html#:~:text=El%20paquete%20tkinter%20(%C2%ABinterfaz%20Tk,%2C%20es%20mantenido%20por%20ActiveState).
+• https://www.freecodecamp.org/espanol/news/python-abre-archivo-como-leer-un-archivo-de-texto-linea-por-linea/
+• https://programacionpython80889555.wordpress.com/2020/03/10/anadiendo-pestanas-a-ventana-tkinter-con-ttk-notebook/
+• https://docs.python.org/es/3/library/tkinter.html
+• https://recursospython.com/guias-y-manuales/posicionar-elementos-en-tkinter/
+•   https://docs.hektorprofe.net/python/interfaces-graficas-con-tkinter/widget-frame-marco/
+•   https://www.delftstack.com/es/tutorial/tkinter-tutorial/tkinter-scrollbar/
+•   https://recursospython.com/guias-y-manuales/barra-de-desplazamiento-scrollbar-en-tk-tkinter/
+•   Creacion de Menus -> https://programacionfacil.org/blog/como-crear-un-menu-superior-con-tkinter-guia-paso-a-paso/
+•   Cajas de Texto -> https://recursospython.com/guias-y-manuales/caja-de-texto-entry-tkinter/
+•   ProgressBar(Logger)-> https://stackoverflow.com/questions/69423410/moviepy-getting-progress-bar-values
+•   progressbarr -> https://stackoverflow.com/questions/49477256/how-to-combine-pytube-and-tkinter-label-to-show-progress
